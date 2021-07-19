@@ -35,7 +35,7 @@ public:
 
 private:
     ArrayNode *nodes[MAX_NUM_NODES];
-    ArrayNode *newData;
+
     void inorder(int index, char sep = ' ');
 };
 

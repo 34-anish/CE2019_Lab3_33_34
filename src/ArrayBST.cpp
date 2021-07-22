@@ -59,7 +59,7 @@ void ArrayBinarySearchTree::remove(int targetKey)
 {
     if (this->search(targetKey)) // if the target key exists in the BST
     {
-
+        std::cout <<"Removing: " << targetKey << std::endl;
         int n2d_i = this->index_of_target_key(targetKey);
         int min_nd_i = this->index_of_target_key(targetKey);
         int max_nd_i = min_nd_i;
